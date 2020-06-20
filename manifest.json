@@ -1,0 +1,24 @@
+{
+  "name": "Keyboard Shortcuts",
+  "version": "0.3",
+  "description": "keyboard shortcuts utility",
+  "permissions": [
+    "downloads",
+    "downloads.shelf"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "toggle-pin-tab": {
+      "suggested_key": { "default": "Alt+Shift+P" },
+      "description": "Toggle pin current tab"
+    },
+    "close-download-bar": {
+      "suggested-key": { "default": "Alt-Shift+D" },
+      "description": "Close download bar"
+    }
+  },
+  "manifest_version": 2
+}
